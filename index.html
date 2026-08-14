@@ -2,44 +2,70 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Hommage à Papa Bosco</title>
+<title>Célébration de vie du Patriarche MBOGBE MBOGBE</title>
 
 <style>
+
 html,body{
     margin:0;
-    height:100%;
-}
-
-body{
-    background:url('affiche-papa-bosco.jpg') center center no-repeat;
-    background-size:cover;
-}
-
-.bouton{
-    position:absolute;
-    bottom:40px;
+    padding:0;
     width:100%;
-    text-align:center;
+    height:100%;
+    overflow:hidden;
 }
 
-.bouton a{
+.page-accueil{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+
+.page-accueil img{
+    width:100%;
+    height:100%;
+    object-fit:contain; /* affiche l'affiche entière */
+    background:#000;
+}
+
+.bouton-entree{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.bouton-entree a{
+    text-decoration:none;
     background:#c9a227;
     color:white;
-    text-decoration:none;
-    padding:15px 35px;
-    border-radius:50px;
     font-size:22px;
     font-weight:bold;
+    padding:15px 35px;
+    border-radius:50px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.4);
 }
+
+.bouton-entree a:hover{
+    background:#b48a10;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="bouton">
-    accueil.htmlEntrer dans l'espace commémoratif</a>
+<div class="page-accueil">
+
+    affiche-papa-bosco.jpeg
+
+    <div class="bouton-entree">
+        accueil.html
+            Entrer dans l'espace commémoratif
+        </a>
+    </div>
+
 </div>
 
 </body>
