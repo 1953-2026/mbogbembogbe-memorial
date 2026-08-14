@@ -3,54 +3,76 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Célébration de Vie</title>
+
+<title>Célébration de vie du Patriarche MBOGBE MBOGBE</title>
 
 <style>
-html,body{
-    margin:0;
-    height:100%;
-    overflow:hidden;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
 }
 
-.container{
-    position:relative;
-    width:100%;
-    height:100vh;
+.affiche {
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
-.container img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    background:#000;
+.affiche img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
 }
 
-.btn{
-    position:absolute;
-    bottom:30px;
-    left:50%;
-    transform:translateX(-50%);
+.bouton-entree {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.btn a{
-    text-decoration:none;
-    background:#c9a227;
-    color:white;
-    padding:15px 35px;
-    border-radius:40px;
-    font-size:20px;
-    font-weight:bold;
+.bouton-entree a {
+    text-decoration: none;
+    background: #c9a227;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
 }
+
+.bouton-entree a:hover {
+    background: #b28d1c;
+}
+
+@media (max-width: 768px) {
+
+    .affiche img {
+        object-fit: contain;
+    }
+
+    .bouton-entree a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="affiche">
 
-    -papa-bosco.jpeg" alt="Affiche commémorative">
-
-    <div class="btn">
+    <img src="affiche-papa-bosco.jpeg class="bouton-entree">
         accueil.html
             Entrer dans l'espace commémoratif
         </a>
