@@ -7,11 +7,13 @@
 <title>Célébration de vie du Patriarche MBOGBE MBOGBE</title>
 
 <style>
-html, body{
+
+html,body{
     margin:0;
     padding:0;
     width:100%;
     height:100%;
+    overflow:hidden;
 }
 
 body{
@@ -20,6 +22,7 @@ body{
     background-color:black;
 }
 
+/* Bouton */
 .bouton{
     position:fixed;
     bottom:30px;
@@ -29,26 +32,40 @@ body{
 
 .bouton a{
     display:inline-block;
-    padding:15px 35px;
     background:#c9a227;
     color:white;
     text-decoration:none;
+    padding:15px 35px;
     border-radius:50px;
     font-size:22px;
     font-weight:bold;
-    box-shadow:0 4px 12px rgba(0,0,0,0.4);
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+    transition:0.3s;
 }
 
 .bouton a:hover{
-    background:#b89014;
+    background:#b38a12;
 }
+
+@media (max-width:768px){
+
+    body{
+        background-size:contain;
+    }
+
+    .bouton a{
+        font-size:18px;
+        padding:12px 25px;
+    }
+}
+
 </style>
 
 </head>
 <body>
 
 <div class="bouton">
-    accueil.html
+    accueil.html">
         Entrer dans l'espace commémoratif
     </a>
 </div>
